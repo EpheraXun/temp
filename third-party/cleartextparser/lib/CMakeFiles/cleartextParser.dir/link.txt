@@ -1,0 +1,2 @@
+/usr/bin/ar Dqc libcleartextParser.a CMakeFiles/cleartextParser.dir/cleartextParser.cpp.o
+/usr/bin/ranlib -D libcleartextParser.a

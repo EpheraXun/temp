@@ -1,0 +1,9 @@
+#ifndef PASSREG_BLACK
+#define PASSREG_BLACK(Str) #Str,
+PASSREG_BLACK(UserProfileWmiProvider)
+PASSREG_BLACK(UserProfileWmiProvider)
+PASSREG_BLACK(userinit)
+PASSREG_BLACK(usercpl)
+PASSREG_BLACK(userenv)
+PASSREG_BLACK(user32)
+#endif

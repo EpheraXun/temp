@@ -1,0 +1,20 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
+and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+## [Release-1.4] - 2018-03-12
+### Added
+- libdhl.a and libdhl.so that contain some basic C language interfaces for verifying the license file.
+- Provide 64-bit and 32-bit for both static and dynamic libraries.
+- Low level "get_attribute" and "get_attribute_s" function in libdhl
+- High level "is_valid" and "is_valid_s" function in libdhl
+- Java interface (dhl.jar)
+- A tool for registering license files, used by our client. Both 32-bit and 64-bit version are provided
+- A Python interface dhl.py that call underlying C functions in libdhl.so
+- A Python script test.py to test whether the Python interface works well or not.
+
+
