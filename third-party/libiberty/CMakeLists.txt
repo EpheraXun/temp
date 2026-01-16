@@ -1,1 +1,0 @@
-PP_ADD_LIBRARY(PPthird_libiberty)
